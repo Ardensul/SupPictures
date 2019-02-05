@@ -2,7 +2,5 @@
     pageEncoding="UTF-8"%>
 
 
-<div> Ceci est le footer</div>
+<div id="footer"> Ceci est le footer</div>
 
-</body>
-</html>
