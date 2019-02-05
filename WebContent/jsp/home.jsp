@@ -2,14 +2,7 @@
     pageEncoding="UTF-8"%>
 
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>SupPictures</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
+
 
 <%@ include file="/jsp/Template/Header.jsp" %>
 
@@ -17,5 +10,3 @@
 
 <%@ include file="/jsp/Template/Footer.jsp" %>
 
-</body>
-</html>

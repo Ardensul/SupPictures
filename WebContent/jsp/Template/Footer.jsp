@@ -4,3 +4,5 @@
 
 <div id="footer"> Ceci est le footer</div>
 
+</body>
+</html>
