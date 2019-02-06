@@ -6,11 +6,12 @@ pageEncoding="UTF-8"%>
 <head>
 <meta charset="UTF-8">
 <title>SupPictures</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body>
 
-<div id="header">
+<div class="light-blue lighten-1">
 	<h1>SupPictures</h1>
 	<ul id="navbar">
 		<li></li>
