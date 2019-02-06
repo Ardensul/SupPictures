@@ -1,6 +1,8 @@
 package com.supinfo.suppictures.servlet;
 
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -20,6 +22,13 @@ public class AddPicture extends HttpServlet {
     public AddPicture() {
         super();
         // TODO Auto-generated constructor stub
+    }
+    
+    @Override
+    protected void service(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+    	RequestDispatcher rd = request.getRequestDispatcher("/jsp/addpicture.jsp");
+		rd.forward(request, response);
     }
 
 	/**
